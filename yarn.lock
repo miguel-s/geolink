@@ -406,9 +406,16 @@ generate-object-property@^1.1.0:
   dependencies:
     is-property "^1.0.0"
 
-"geolink-admin@git+https://github.com/miguel-s/geolink-admin.git":
+"geolink-admin@git+https://github.com/miguel-s/geolink-admin.git", "git+https://github.com/miguel-s/geolink-admin.git":
+  name geolink-admin
   version "1.0.0"
   resolved "git+https://github.com/miguel-s/geolink-admin.git#1cca12f1c28a2cc42c8acc411bc483d942a13fcf"
+  dependencies:
+    pug "^2.0.0-beta6"
+
+"geolink-auth@git+https://github.com/miguel-s/geolink-auth.git":
+  version "1.0.0"
+  resolved "git+https://github.com/miguel-s/geolink-auth.git#5818e1852266b52f57d256917cdaca20346b1e38"
   dependencies:
     pug "^2.0.0-beta6"
 
@@ -418,16 +425,15 @@ generate-object-property@^1.1.0:
   dependencies:
     pug "^2.0.0-beta6"
 
+"geolink-workers@git+https://github.com/miguel-s/geolink-workers.git":
+  version "1.0.0"
+  resolved "git+https://github.com/miguel-s/geolink-workers.git#de476b9f6a2376a483a1caf804dc67b8438b5797"
+
 getpass@^0.1.1:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.6.tgz#283ffd9fc1256840875311c1b60e8c40187110e6"
   dependencies:
     assert-plus "^1.0.0"
-
-"git+https://github.com/miguel-s/geolink-workers.git":
-  name geolink-workers
-  version "1.0.0"
-  resolved "git+https://github.com/miguel-s/geolink-workers.git#b36c506f5b3fa9636dccb02cccea6ebd08aa1cab"
 
 glob@^7.0.5:
   version "7.1.1"

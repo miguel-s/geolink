@@ -54,6 +54,15 @@ module.exports = {
       },
     },
     {
+      plugin: 'geolink-auth',
+      options: {
+        select: ['geolink'],
+        routes: {
+          prefix: '/auth',
+        },
+      },
+    },
+    {
       plugin: 'geolink-workers',
       options: {
         select: ['geolink'],

@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "update-admin": "npm install git+https://github.com/miguel-s/geolink-admin.git",
+    "update-auth": "npm install git+https://github.com/miguel-s/geolink-auth.git",
+    "update-dashboards": "npm install git+https://github.com/miguel-s/geolink-dashboards.git",
+    "update-workers": "npm install git+https://github.com/miguel-s/geolink-workers.git"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miguel-s/geolink.git"
   },
-  "author": "Miguel Serrano",
-  "license": "ISC",
+  "author": "Miguel Serrano <mlsv89@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/miguel-s/geolink/issues"
   },
@@ -20,6 +24,7 @@
   "dependencies": {
     "dotenv": "^2.0.0",
     "geolink-admin": "git+https://github.com/miguel-s/geolink-admin.git",
+    "geolink-auth": "git+https://github.com/miguel-s/geolink-auth.git",
     "geolink-dashboards": "git+https://github.com/miguel-s/geolink-dashboards.git",
     "geolink-workers": "git+https://github.com/miguel-s/geolink-workers.git",
     "glue": "^4.0.0",
