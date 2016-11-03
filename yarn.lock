@@ -412,11 +412,22 @@ generate-object-property@^1.1.0:
   dependencies:
     pug "^2.0.0-beta6"
 
+"geolink-dashboards@git+https://github.com/miguel-s/geolink-dashboards.git":
+  version "1.0.0"
+  resolved "git+https://github.com/miguel-s/geolink-dashboards.git#1bc6d00c429da2d5c47380a213dfb4ffbd8ed2d8"
+  dependencies:
+    pug "^2.0.0-beta6"
+
 getpass@^0.1.1:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.6.tgz#283ffd9fc1256840875311c1b60e8c40187110e6"
   dependencies:
     assert-plus "^1.0.0"
+
+"git+https://github.com/miguel-s/geolink-workers.git":
+  name geolink-workers
+  version "1.0.0"
+  resolved "git+https://github.com/miguel-s/geolink-workers.git#b36c506f5b3fa9636dccb02cccea6ebd08aa1cab"
 
 glob@^7.0.5:
   version "7.1.1"
