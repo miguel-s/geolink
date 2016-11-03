@@ -1,0 +1,30 @@
+{
+  "name": "geolink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguel-s/geolink.git"
+  },
+  "author": "Miguel Serrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguel-s/geolink/issues"
+  },
+  "homepage": "https://github.com/miguel-s/geolink#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "glue": "^4.0.0",
+    "good": "^7.0.2",
+    "hapi": "^15.2.0",
+    "hapi-auth-cookie": "^6.1.1",
+    "hoek": "^4.1.0",
+    "inert": "^4.0.2",
+    "sqlite3": "^3.1.8",
+    "vision": "^4.1.0"
+  }
+}
