@@ -10,7 +10,7 @@ exports.register = (server, options, next) => {
 };
 
 exports.register.attributes = {
-  name: 'Good',
+  name: 'goodConfig',
 };
 
 exports.options = internals.options = {

@@ -21,5 +21,5 @@ exports.register = (server, options, next) => {
 };
 
 exports.register.attributes = {
-  name: 'Database',
+  name: 'database',
 };
