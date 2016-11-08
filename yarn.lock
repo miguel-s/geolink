@@ -109,11 +109,21 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bcryptjs:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/bcryptjs/-/bcryptjs-2.3.0.tgz#5826900cfef7abaf3425c72e4d464de509b8c2ec"
+
 block-stream@*:
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/block-stream/-/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
   dependencies:
     inherits "~2.0.0"
+
+boom, boom@4.x.x:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/boom/-/boom-4.2.0.tgz#c1a74174b11fbba223f6162d4fd8851a1b82a536"
+  dependencies:
+    hoek "4.x.x"
 
 boom@2.x.x:
   version "2.10.1"
@@ -124,12 +134,6 @@ boom@2.x.x:
 boom@3.x.x:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/boom/-/boom-3.2.2.tgz#0f0cc5d04adc5003b8c7d71f42cca7271fef0e78"
-  dependencies:
-    hoek "4.x.x"
-
-boom@4.x.x:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/boom/-/boom-4.2.0.tgz#c1a74174b11fbba223f6162d4fd8851a1b82a536"
   dependencies:
     hoek "4.x.x"
 
@@ -406,29 +410,6 @@ generate-object-property@^1.1.0:
   dependencies:
     is-property "^1.0.0"
 
-"geolink-admin@git+https://github.com/miguel-s/geolink-admin.git", "git+https://github.com/miguel-s/geolink-admin.git":
-  name geolink-admin
-  version "1.0.0"
-  resolved "git+https://github.com/miguel-s/geolink-admin.git#1cca12f1c28a2cc42c8acc411bc483d942a13fcf"
-  dependencies:
-    pug "^2.0.0-beta6"
-
-"geolink-auth@git+https://github.com/miguel-s/geolink-auth.git":
-  version "1.0.0"
-  resolved "git+https://github.com/miguel-s/geolink-auth.git#5818e1852266b52f57d256917cdaca20346b1e38"
-  dependencies:
-    pug "^2.0.0-beta6"
-
-"geolink-dashboards@git+https://github.com/miguel-s/geolink-dashboards.git":
-  version "1.0.0"
-  resolved "git+https://github.com/miguel-s/geolink-dashboards.git#1bc6d00c429da2d5c47380a213dfb4ffbd8ed2d8"
-  dependencies:
-    pug "^2.0.0-beta6"
-
-"geolink-workers@git+https://github.com/miguel-s/geolink-workers.git":
-  version "1.0.0"
-  resolved "git+https://github.com/miguel-s/geolink-workers.git#de476b9f6a2376a483a1caf804dc67b8438b5797"
-
 getpass@^0.1.1:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.6.tgz#283ffd9fc1256840875311c1b60e8c40187110e6"
@@ -675,6 +656,16 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
+joi, joi@9.x.x:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-9.2.0.tgz#3385ac790192130cbe230e802ec02c9215bbfeda"
+  dependencies:
+    hoek "4.x.x"
+    isemail "2.x.x"
+    items "2.x.x"
+    moment "2.x.x"
+    topo "2.x.x"
+
 joi@7.x.x:
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/joi/-/joi-7.3.0.tgz#4d9c9f181830444083665b5b6cd5b8ca6779a5e9"
@@ -690,16 +681,6 @@ joi@8.x.x:
   dependencies:
     hoek "4.x.x"
     isemail "2.x.x"
-    moment "2.x.x"
-    topo "2.x.x"
-
-joi@9.x.x:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-9.2.0.tgz#3385ac790192130cbe230e802ec02c9215bbfeda"
-  dependencies:
-    hoek "4.x.x"
-    isemail "2.x.x"
-    items "2.x.x"
     moment "2.x.x"
     topo "2.x.x"
 
@@ -829,7 +810,7 @@ node-pre-gyp@~0.6.31:
     tar "~2.2.1"
     tar-pack "~3.3.0"
 
-node-uuid@~1.4.7:
+node-uuid, node-uuid@~1.4.7:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/node-uuid/-/node-uuid-1.4.7.tgz#6da5a17668c4b3dd59623bda11cf7fa4c1f60a6f"
 
@@ -929,6 +910,19 @@ pseudomap@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
+pug:
+  version "2.0.0-beta6"
+  resolved "https://registry.yarnpkg.com/pug/-/pug-2.0.0-beta6.tgz#9ead2e59e540a467efc3787ccb03e4574ba5fae9"
+  dependencies:
+    pug-code-gen "^1.1.0"
+    pug-filters "^1.2.4"
+    pug-lexer "^2.2.0"
+    pug-linker "^1.0.1"
+    pug-load "^2.0.3"
+    pug-parser "^2.0.1"
+    pug-runtime "^2.0.2"
+    pug-strip-comments "^1.0.1"
+
 pug-attrs@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pug-attrs/-/pug-attrs-2.0.1.tgz#8b5dd7c330730c09f62299e06b58fd0ebc4ebfd5"
@@ -1008,19 +1002,6 @@ pug-strip-comments@^1.0.1:
 pug-walk@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/pug-walk/-/pug-walk-1.0.0.tgz#7f4ae1456a4f18feee40a0d708b75c1c51d2e4e4"
-
-pug@^2.0.0-beta6:
-  version "2.0.0-beta6"
-  resolved "https://registry.yarnpkg.com/pug/-/pug-2.0.0-beta6.tgz#9ead2e59e540a467efc3787ccb03e4574ba5fae9"
-  dependencies:
-    pug-code-gen "^1.1.0"
-    pug-filters "^1.2.4"
-    pug-lexer "^2.2.0"
-    pug-linker "^1.0.1"
-    pug-load "^2.0.3"
-    pug-parser "^2.0.1"
-    pug-runtime "^2.0.2"
-    pug-strip-comments "^1.0.1"
 
 pump@^1.0.0:
   version "1.0.1"

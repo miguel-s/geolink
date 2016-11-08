@@ -11,70 +11,41 @@ module.exports = {
     },
   ],
   registrations: [
-    // Basic plugins
-    {
-      plugin: 'inert',
-      options: {
-        select: ['geolink'],
-      },
-    },
-    {
-      plugin: 'vision',
-      options: {
-        select: ['geolink'],
-      },
-    },
-    {
-      plugin: 'hapi-auth-cookie',
-      options: {
-        select: ['geolink'],
-      },
-    },
-    {
-      plugin: './good',
-      options: {
-        select: ['geolink'],
-      },
-    },
-    {
-      plugin: './database',
-      options: {
-        select: ['geolink'],
-      },
-    },
+    // Plugins
+    { plugin: 'inert' },
+    { plugin: 'vision' },
+    { plugin: './plugins/auth-cookie' },
+    { plugin: './plugins/good' },
+    { plugin: './plugins/database' },
 
     // Modules
     {
-      plugin: 'geolink-admin',
+      plugin: './modules/admin',
       options: {
-        select: ['geolink'],
         routes: {
           prefix: '/admin',
         },
       },
     },
     {
-      plugin: 'geolink-auth',
+      plugin: './modules/auth',
       options: {
-        select: ['geolink'],
         routes: {
           prefix: '/auth',
         },
       },
     },
     {
-      plugin: 'geolink-workers',
+      plugin: './modules/scrapers',
       options: {
-        select: ['geolink'],
         routes: {
-          prefix: '/workers',
+          prefix: '/scrapers',
         },
       },
     },
     {
-      plugin: 'geolink-dashboards',
+      plugin: './modules/dashboards',
       options: {
-        select: ['geolink'],
         routes: {
           prefix: '/dashboards',
         },
