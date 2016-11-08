@@ -1,0 +1,41 @@
+extends ../../../shared/views/layouts/base.pug
+
+append head
+  title Signup
+  style.
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+append body
+  div.container
+    div.row
+      div.col-sm-4.col-sm-offset-4
+        h1 Signup
+    div.row
+      div.col-sm-4.col-sm-offset-4
+        if message
+          div= message
+    div.row
+      div.col-sm-4.col-sm-offset-4
+        form(action="signup" method="post")
+          div.form-group
+            label(for="email") Email
+            input(type="email" name="email" placeholder='Email' value=email)#email.form-control
+          div.form-group
+            label(for="password") Password
+            input(type="password" name="password" placeholder='Password')#password.form-control
+          button(type="submit").btn.btn-primary Signup
+    div.row
+      div.col-sm-4.col-sm-offset-4
+        hr
+        p Already have an account?
+          | #{" "}
+          a(href="login") login
+        p Or go
+          | #{" "}
+          a(href="/") home
+          | .
+
+append scripts

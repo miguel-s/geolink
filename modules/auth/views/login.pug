@@ -1,0 +1,48 @@
+extends ../../../shared/views/layouts/base.pug
+
+append head
+  title Login
+  style.
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+append body
+  div.container
+    div.row
+      div.col-sm-4.col-sm-offset-4
+        h1 Login
+    div.row
+      div.col-sm-4.col-sm-offset-4
+        if message
+          div= message
+    div.row
+      div.col-sm-4.col-sm-offset-4
+        form(action="login" method="post")
+          div.form-group
+            label(for="email") Email
+            input(type="email" name="email" placeholder='Email' value=email)#email.form-control
+          div.form-group
+            label(for="password") Password
+            input(type="password" name="password" placeholder='Password')#password.form-control
+          div.checkbox.custom-control.custom-checkbox
+            label
+              input(type="checkbox")
+              span.custom-control-indicator
+              | Remember me
+          input(type="hidden" name="next" value="")#next
+          button(type="submit").btn.btn-primary Login
+    div.row
+      div.col-sm-4.col-sm-offset-4
+        hr
+        p Need an account?
+          | #{" "}
+          a(href="signup") Signup
+        p Or go
+          | #{" "}
+          a(href="/") home
+          | .
+
+append scripts
+  script(src="/js/login.min.js")
