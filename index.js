@@ -4,19 +4,16 @@ require('dotenv').config();
 
 const Hoek = require('hoek');
 const Server = require('./server.js');
+const manifest = require('./manifest.js');
 
-const internals = {};
-internals.manifest = require('./manifest');
-internals.composeOptions = { relativeTo: `${__dirname}/plugins` };
+const options = { relativeTo: `${__dirname}/` };
 
-Server.init(internals.manifest, internals.composeOptions, (err, server) => {
+Server.init(manifest, options, (err, server) => {
   Hoek.assert(!err, err);
 
-  server.app.settings = internals.settings;
-
-  server.connections.forEach((c) => {
-    const labels = c.settings.labels.join(', ');
-    const port = c.settings.port;
+  server.connections.forEach((connection) => {
+    const labels = connection.settings.labels.join(', ');
+    const port = connection.settings.port;
     console.log(`[${labels}] connection started at port [${port}]`);
   });
 });
