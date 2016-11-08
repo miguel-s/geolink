@@ -1,0 +1,6 @@
+mixin statcard(title, num, delta, position, background, classes)
+  div(class=position class=background ? `statcard-${background}` : '' class=classes).statcard.p-a
+    h3.statcard-number= num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+      if delta
+        small(class=delta < 0 ? "delta-negative" : "delta-positive").delta-indicator= `${Math.abs(delta) * 100}%`
+    span.statcard-desc= title

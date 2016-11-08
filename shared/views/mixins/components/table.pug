@@ -1,0 +1,12 @@
+mixin table(id, headers, body)
+  div.table-responsive
+    table(id=id).table.tablesorter
+      thead
+        tr
+          each header in headers
+            th= header
+      tbody
+        each row in body
+          tr
+            each datum in row
+              td= datum

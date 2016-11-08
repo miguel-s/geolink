@@ -1,0 +1,58 @@
+mixin page(num, active, url)
+  li(class=active ? "active" : "").page-item
+    a(href=url).page-link!= num
+
+mixin pagination(page, pages, url)
+  nav(aria-label="List pagination")
+    ul.pagination
+
+      // previous page
+      li(class=(page === 1 ? "disabled" : "")).page-item
+        a(href=`${url}?page=${page - 1}` aria-label="Previous").page-link
+          span(aria-hidden="true") &laquo;
+          span.sr-only Previous
+
+      // pagination logic
+      // comments here else pug breaks
+      // 1. less or equal 8 pages
+      // 2. more than 8 pages && current page is in first three
+      // 3. more than 8 pages && current page is in last three
+      // 4. current page is somewhere in the middle
+
+      // FIXME: use backtick string interpolation when syntax highlighting works correctly
+
+      if pages <= 8
+        - let p = 1
+        while p <= pages
+          +page(p, p === page, url + "?page=" + p)
+          - p++
+      else if pages > 8 && page < 4
+        +page(1, page === 1, url + "?page=1")
+        +page(2, page === 2, url + "?page=2")
+        +page(3, page === 3, url + "?page=3")
+        if page === 3
+          +page(4, page === 4, url + "?page=4")
+        +page("&hellip;", false, "#")
+        +page(pages, false, url + "?page=" + pages)
+      else if pages > 8 && page > pages - 3
+        +page(1, false, url + "?page=" + 1)
+        +page("&hellip;", false, "#")
+        if page === pages - 2
+          +page(pages - 3, page === pages - 3, url + "?page=" + (pages - 3))
+        +page(pages - 2, page === pages - 2, url + "?page=" + (pages - 2))
+        +page(pages - 1, page === pages - 1, url + "?page=" + (pages - 1))
+        +page(pages, page === pages, url + "?page=" + pages)
+      else
+        +page(1, false, url + "?page=1")
+        +page(2, false, url + "?page=2")
+        +page("&hellip;", false, "#")
+        +page(page, true, url + "?page=" + page)
+        +page("&hellip;", false, "#")
+        +page(pages - 1, false, url + "?page=" + (pages - 1))
+        +page(pages, false, url + "?page=" + pages)
+
+      // next page
+      li(class=(page === pages ? "disabled" : "")).page-item
+        a(href=`${url}?page=${page + 1}` aria-label="Next").page-link
+          span(aria-hidden="true") &raquo;
+          span(class="sr-only") Next

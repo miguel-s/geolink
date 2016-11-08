@@ -1,0 +1,22 @@
+mixin sidebar(path)
+  div.sidebar
+    nav.sidebar-nav
+      div.sidebar-header
+        button(type="button" data-toggle="collapse" data-target="#nav-toggleable-sm").nav-toggler.nav-toggler-sm.sidebar-toggler
+          span.sr-only Toggle nav
+        a(href="/").sidebar-brand.img-responsive
+          span.icon.icon-leaf.sidebar-brand-icon
+      div#nav-toggleable-sm.collapse.nav-toggleable-sm
+        ul.nav.nav-pills.nav-stacked
+          li.nav-header Dashboards
+          li(class=(path === "/" ? "active" : ""))
+            a(href="/") Overview
+          li(class=(path === "/map" ? "active" : ""))
+            a(href="/map") Map
+          li.nav-header Tools
+          li(class=(path === "/list" ? "active" : ""))
+            a(href="/list") List
+          li.nav-header Misc
+          li
+            a(href="/logout") Logout
+        hr.visible-xs

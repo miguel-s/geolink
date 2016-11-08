@@ -1,0 +1,11 @@
+mixin doughnut(title, subtitle, data)
+  - const colors = ['#1ca8dd', '#1bc98e', '#9f86ff', '#e4d836', '#e64759']
+  div.doughnut-graph
+    canvas(
+      width="200"
+      height="200"
+      data-chart="doughnut"
+      data-value=data.map((row, index) => ({ label: row.label, value: row.value, color: colors[index % colors.length] }))
+    ).ex-graph.m-b-md
+    strong.text-muted= title
+    h4.m-t-0= subtitle

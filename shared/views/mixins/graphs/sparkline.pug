@@ -1,0 +1,16 @@
+mixin sparkline(type, title, num, delta, labels, data)
+  div.sparkline-graph
+    div(class=`statcard-${type}`).statcard
+      div.p-a
+        span.statcard-desc= title
+        h2.statcard-number= num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+          small(class=delta < 0 ? "delta-negative" : "delta-positive").delta-indicator= `${delta * 100}%`
+        hr.statcard-hr.m-b-0
+      canvas(
+        width="378"
+        height="94"
+        data-chart="spark-line"
+        data-labels=labels
+        data-value=data
+        style="width: 189px; height: 47px;"
+      ).sparkline

@@ -1,0 +1,10 @@
+mixin dashhead(title, subtitle, separator)
+  div.dashhead
+    div.dashhead-titles
+      h6.dashhead-subtitle= subtitle
+      h2.dashhead-title= title
+    if block
+      div.dashhead-toolbar
+        block
+  if separator
+    hr.m-t

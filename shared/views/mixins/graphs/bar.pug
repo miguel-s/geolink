@@ -1,0 +1,19 @@
+mixin bar(title, subtitle, labels, data, options = {})
+  - const { scaleOverride, scaleSteps, scaleStartValue, scaleStepWidth } = options
+  div.bar-graph
+    canvas(
+      width="600"
+      height="400"
+      data-chart="bar"
+      data-scale-line-color="transparent"
+      data-scale-grid-line-color="rgba(255,255,255,.05)"
+      data-scale-font-color="#a2a2a2"
+      data-labels=labels
+      data-value=data
+      data-scale-override=scaleOverride
+      data-scale-steps=scaleSteps
+      data-scale-start-value=scaleStartValue
+      data-scale-step-width=scaleStepWidth
+    ).ex-line-graph.m-b-md
+    strong.text-muted= title
+    h4.m-t-0= subtitle
