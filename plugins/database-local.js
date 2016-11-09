@@ -6,13 +6,13 @@ const internals = {};
 
 exports.register = (server, options, next) => {
   server.ext('onPreStart', (request, reply) => {
-    server.app.db = new sqlite.Database('database.db');
+    server.app.dblocal = new sqlite.Database('database.db');
     return reply();
   });
 
   server.ext('onPreStop', (request, reply) => {
-    if (!server.app.db) return reply();
-    server.app.db.close((err) => {
+    if (!server.app.dblocal) return reply();
+    server.app.dblocal.close((err) => {
       if (err) return reply(err);
       return reply();
     });
@@ -21,5 +21,5 @@ exports.register = (server, options, next) => {
 };
 
 exports.register.attributes = {
-  name: 'database',
+  name: 'databaseLocal',
 };
