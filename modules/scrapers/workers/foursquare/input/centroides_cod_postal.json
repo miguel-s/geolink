@@ -1,0 +1,1852 @@
+[
+  {
+    "latlon": "43.333352, -8.427069",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.369819, -8.403188",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.365961, -8.403003",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.361389, -8.407827",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.353558, -8.392642",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.370476, -8.458237",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.381117, -8.447477",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.389097, -8.413504",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.381515, -8.401595",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.365034, -8.410476",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.313937, -8.441652",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.355411, -8.412503",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.359041, -8.429805",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.338594, -8.394923",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.326157, -8.430522",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.37909, -8.449479",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.366416, -8.440647",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.367328, -8.432358",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.329086, -8.386612",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.371062, -8.392576",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.377312, -8.451085",
+    "municipio": "coruña, a",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.882672, -2.792385",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.849121, -2.672393",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.853361, -2.656582",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.845855, -2.654555",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.844129, -2.666576",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.843281, -2.671967",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.835091, -2.659173",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.831302, -2.697671",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.847232, -2.684848",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.854416, -2.685633",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.860471, -2.70003",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.855961, -2.677127",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.872162, -2.663316",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.800853, -2.651087",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.89565, -2.593444",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.920788, -2.627471",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.906567, -2.657115",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.893138, -2.720288",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.833433, -2.593209",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.864771, -2.588475",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.841489, -2.726056",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.821913, -2.75339",
+    "municipio": "vitoria-gasteiz",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.167303, -0.480737",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.165029, -0.485512",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.166195, -0.477118",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.165842, -0.484677",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.164813, -0.474788",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.528646, -0.385234",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.47014, -0.480195",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.404572, -0.589596",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.358414, -0.481647",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.313115, -0.527613",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.339585, -0.490003",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.344385, -0.486585",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.34594, -0.479427",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.369772, -0.448653",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.369658, -0.421377",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.356685, -0.474923",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.34059, -0.516492",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.352609, -0.537739",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.388834, -0.462138",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.349892, -0.48712",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.370235, -0.483883",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.363871, -0.48923",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.354361, -0.502442",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.372535, -0.470238",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.376206, -0.493138",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.367111, -0.515411",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.327056, -0.560891",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.394545, -0.483092",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.356141, -0.589553",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.459322, -0.497532",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.468057, -0.448292",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.430845, -0.558619",
+    "municipio": "alicante/alacant",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.564076, 2.788909",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.55686, 2.604497",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.571641, 2.612086",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.588086, 2.598068",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.569181, 2.642705",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.567451, 2.650944",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.572233, 2.65439",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.578631, 2.662977",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.587738, 2.658224",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.61726, 2.605219",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.632752, 2.655389",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.577778, 2.649392",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.564281, 2.669352",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.565186, 2.694036",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.58343, 2.677971",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.614323, 2.672928",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.585232, 2.743299",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.533105, 2.727244",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.518066, 2.761471",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.613664, 2.631426",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.548358, 2.732395",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.642032, 2.625148",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.638567, 2.645744",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.206985, 2.978838",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.205009, 2.979121",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.202318, 2.976492",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.201215, 2.975216",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.200439, 2.973156",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.196648, 2.972699",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.195096, 2.965342",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.183329, 2.964043",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.17526, 2.961858",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.174315, 2.970528",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.168097, 2.976489",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.164823, 2.958933",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.156069, 2.917634",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.149373, 2.964039",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.148312, 2.963767",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.147847, 2.96363",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.146258, 2.957175",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.138432, 2.961811",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.134857, 2.956674",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.13269, 2.923112",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.128431, 2.937597",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.126036, 2.938491",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.145052, 2.943925",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.12569, 2.943138",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.125444, 2.959065",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.124688, 2.944432",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.125232, 2.939497",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.121994, 2.93608",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "39.1209, 2.940108",
+    "municipio": "palma de mallorca",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.36973, 2.098653",
+    "municipio": "hospitalet de llobregat, l'",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.36206, 2.104658",
+    "municipio": "hospitalet de llobregat, l'",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.369632, 2.10939",
+    "municipio": "hospitalet de llobregat, l'",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.372144, 2.1173",
+    "municipio": "hospitalet de llobregat, l'",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.372018, 2.123733",
+    "municipio": "hospitalet de llobregat, l'",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.349789, 2.104072",
+    "municipio": "hospitalet de llobregat, l'",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.348621, 2.121111",
+    "municipio": "hospitalet de llobregat, l'",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.361472, 2.122813",
+    "municipio": "hospitalet de llobregat, l'",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.363933, 2.132279",
+    "municipio": "hospitalet de llobregat, l'",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.173102, -3.560237",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.158157, -3.578304",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.147019, -3.599445",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.175667, -3.604962",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.169561, -3.600432",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.179151, -3.602132",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.19726, -3.622049",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.197126, -3.665797",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.184877, -3.650763",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.203569, -3.611384",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.187502, -3.604994",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.201142, -3.59537",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.210088, -3.560483",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.194565, -3.542796",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.160627, -3.604277",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.169325, -3.630336",
+    "municipio": "granada",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.085537, -15.487305",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.055095, -15.448953",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.041834, -15.411751",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.038635, -15.42155",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.076285, -15.422932",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.099127, -15.414858",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.088968, -15.430732",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.160893, -15.416809",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.162327, -15.430518",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.132733, -15.430778",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.116915, -15.423742",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.118104, -15.436754",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.108547, -15.449125",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.105662, -15.41708",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.099408, -15.43383",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.127249, -15.435188",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.124265, -15.429837",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.110556, -15.432078",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.094475, -15.446315",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.138437, -15.432218",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.122173, -15.462355",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.111169, -15.419803",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "28.110029, -15.443692",
+    "municipio": "palmas de gran canaria, las",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.666973, -0.890697",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.602997, -0.986901",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.590262, -0.963813",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.6099, -0.975875",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.611695, -0.989819",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.604082, -1.01063",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.629846, -0.981634",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.638897, -1.009656",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.674183, -1.014658",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.650687, -1.058154",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.677021, -1.069231",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.572716, -1.163725",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.71427, -0.998682",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.693398, -0.961303",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.573155, -0.926278",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.602728, -0.939495",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.650078, -1.161341",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.669564, -1.09565",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.620485, -1.125209",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.669309, -0.965263",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.684488, -0.922373",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.599159, -1.032973",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.610345, -1.066782",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.685634, -0.994902",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.620226, -0.950317",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.655547, -1.04102",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.696211, -1.081182",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.597681, -0.799021",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.611415, -0.783669",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.63454, -0.762674",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.646772, -0.795922",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.644807, -0.829184",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.62036, -0.833006",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.651271, -0.721097",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.622784, -0.71596",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.646314, -0.92602",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.678704, -0.841273",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.649957, -0.857962",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.584247, -0.887183",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.604766, -0.914576",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.709661, -1.036086",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.660141, -0.737322",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.717811, -0.86474",
+    "municipio": "cartagena",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.964286, -1.244439",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.905868, -1.250508",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.964253, -1.198396",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.916406, -1.207257",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.995086, -1.232818",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.986317, -1.206159",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.997175, -1.193323",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.848235, -0.943251",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.853566, -0.977806",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.98636, -1.128142",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.978482, -1.130989",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.984365, -1.119817",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.983411, -1.135291",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.986954, -1.137278",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.994587, -1.099258",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.99232, -1.130138",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.004993, -1.112998",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.990235, -1.150455",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.978116, -1.109027",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.958301, -1.154871",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.963833, -1.122691",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.032613, -1.15626",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.930199, -1.123434",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.95875, -1.064223",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.945374, -1.363966",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.974297, -1.318301",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.978868, -1.19325",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.737729, -1.076172",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.839274, -1.181922",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.921292, -1.172871",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.971864, -1.14042",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.926599, -1.138588",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.004856, -1.149938",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.7283, -1.061824",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.016955, -1.181312",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.892332, -0.979444",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.982112, -1.030281",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.963059, -0.974756",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.006503, -1.0051",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.015935, -1.032001",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.043507, -1.127857",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.978338, -1.048912",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.950531, -1.178934",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.975989, -1.182326",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.968803, -1.165738",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.964421, -1.183531",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.004582, -1.173658",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.979169, -1.164894",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.069098, -1.097451",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.039459, -1.025805",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.020204, -1.054043",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.004642, -1.07115",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "38.025107, -1.095567",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.945851, -1.086813",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.925971, -1.102983",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.826751, -1.06706",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.872471, -1.119863",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.793861, -1.116506",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "37.985109, -1.174655",
+    "municipio": "murcia",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.200003, -8.739059",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.252529, -8.685932",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.223412, -8.650113",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.252114, -8.68327",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.157509, -8.68931",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.190342, -8.702915",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.229809, -8.657897",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.177752, -8.71907",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.171472, -8.801296",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.184589, -8.799494",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.180835, -8.759474",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.183539, -8.772022",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.173468, -8.726801",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.202728, -8.912846",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.214659, -8.89828",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.216658, -8.916098",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.219254, -8.780342",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.221289, -8.777829",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.223718, -8.777962",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.226747, -8.766303",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.229753, -8.906746",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.250116, -8.699928",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.223203, -8.750188",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.216938, -8.746197",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.214204, -8.736812",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.224842, -8.730101",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.212142, -8.767426",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.216152, -8.696041",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.236885, -8.685063",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.185653, -8.724144",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.204955, -8.701911",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.23643, -8.7262",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.230186, -8.723684",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.179465, -8.908884",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.18931, -8.817491",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.200746, -8.801702",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.197642, -8.902824",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.237926, -8.714044",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.225872, -8.716232",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.231997, -8.677106",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.229001, -8.697068",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.221005, -8.676301",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.236666, -8.700362",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.196257, -8.784188",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.242948, -8.659013",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.228842, -8.663243",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.217488, -8.665963",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.208289, -8.666859",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.195885, -8.679266",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.222077, -8.72434",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.204695, -8.732982",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.237943, -8.660134",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "42.231436, -8.653356",
+    "municipio": "vigo",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.627305, -4.904173",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.763652, -4.869565",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.550496, -4.79025",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.65045, -4.729805",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.65088, -4.721941",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.646275, -4.722948",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.651984, -4.71376",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.639841, -4.739373",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.639064, -4.732441",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.616937, -4.752411",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.664832, -4.719138",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.667297, -4.679717",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.609282, -4.72013",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.681311, -4.740755",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.655836, -4.726712",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.646311, -4.752385",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.636604, -4.754519",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.633983, -4.766851",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.628196, -4.764742",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.625499, -4.706038",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.635385, -4.677138",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.650593, -4.739554",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.545087, -4.827863",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "41.589905, -4.765014",
+    "municipio": "valladolid",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.244799, -2.960004",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.277664, -2.93246",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.26776, -2.920863",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.257012, -2.900051",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.256266, -2.917615",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.258694, -2.92387",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.265557, -2.932859",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.260711, -2.931914",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.233455, -2.928956",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.269152, -2.964284",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.254613, -2.9405",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.259138, -2.940174",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.263867, -2.940174",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.265769, -2.933851",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.247658, -2.904573",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  },
+  {
+    "latlon": "43.273111, -2.951249",
+    "municipio": "bilbao",
+    "type": "cod_postal"
+  }
+]

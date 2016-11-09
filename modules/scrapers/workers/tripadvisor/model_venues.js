@@ -1,0 +1,45 @@
+'use strict';
+
+module.exports = {
+  id: null,
+  url: null,
+  name: null,
+  address: {
+    street: null,
+    postalCode: null,
+    city: null,
+    country: null,
+  },
+  telephone: null,
+  ranking: null,
+  rating: null,
+  ratingVisitors: {
+    excellent: null,
+    veryGood: null,
+    average: null,
+    poor: null,
+  },
+  ratingSummary: {
+    food: null,
+    service: null,
+    value: null,
+    atmosphere: null,
+  },
+  numReviews: null,
+  numQAs: null,
+  opening: {
+    monday: null,
+    tuesday: null,
+    wednesday: null,
+    thursday: null,
+    friday: null,
+    saturday: null,
+    sunday: null,
+  },
+  cuisine: null,
+  price: null,
+  cluster: null,
+  section: null,
+  index: null,
+  datetime: null,
+};
