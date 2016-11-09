@@ -1,12 +1,16 @@
 'use strict';
 
 const path = require('path');
+const Hoek = require('hoek');
 
 const internals = {};
 
 exports.register = (server, options, next) => {
-  server.dependency(['inert', 'authCookie'], internals.after);
-  return next();
+  server.dependency('authCookie', internals.after);
+  server.register(require('inert'), (err) => {
+    Hoek.assert(!err, err);
+    return next();
+  });
 };
 
 exports.register.attributes = {
