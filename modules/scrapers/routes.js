@@ -6,11 +6,8 @@ module.exports = [
     path: '/',
     config: {
       description: 'Returns the index page',
-      handler: {
-        view: {
-          template: 'index',
-        },
-      },
+      auth: { strategy: 'session', mode: 'try' },
+      handler: require('./controllers/index.js'),
     },
   },
 ];

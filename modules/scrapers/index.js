@@ -1,6 +1,7 @@
 'use strict';
 
-const Hoek = require('hoek');
+const socketio = require('socket.io');
+const sockets = require('./sockets.js');
 
 const internals = {};
 
@@ -29,7 +30,10 @@ internals.after = (server, next) => {
     path: 'views',
   });
 
-  server.route(require('./plugins/routes.js'));
+  server.route(require('./routes.js'));
+
+  const io = socketio(server.listener);
+  sockets(io);
 
   return next();
 };

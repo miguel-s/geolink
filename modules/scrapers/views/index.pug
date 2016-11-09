@@ -1,6 +1,29 @@
-doctype html
-html
-  head
-    title Admin
-  body
-    h1 Hello, world!
+extends ./layouts/base.pug
+
+include ./mixins/card.pug
+
+append head
+  title Scrapers
+
+append content
+  div.row
+    div.col-sm-12
+      +card({ name: 'twitter', icon: 'fa-twitter', data: twitter })
+    div.col-sm-12
+      +card({ name: 'facebook', icon: 'fa-facebook', data: facebook })
+    div.col-sm-12
+      +card({ name: 'foursquare', icon: 'fa-foursquare', data: foursquare })
+    div.col-sm-12
+      +card({ name: 'yelp', icon: 'fa-yelp', data: yelp })
+    div.col-sm-12
+      +card({ name: 'tripadvisor', icon: 'fa-tripadvisor', acro: 'ta', lists: ['pages', 'list', 'venues'], data: tripadvisor })
+    div.col-sm-12
+      +card({ name: 'michelin', icon: 'fa-cutlery', acro: 'mi', lists: ['list', 'venues'], data: michelin })
+    div.col-sm-12
+      +card({ name: 'repsol', icon: 'fa-cutlery', acro: 're', lists: ['pages', 'list', 'venues'], data: repsol })
+    div.col-sm-12
+      +card({ name: 'minube', icon: 'fa-cloud', acro: 'mn', lists: ['pages', 'list', 'pois'], data: minube })
+
+append scripts
+  script(src="/socket.io/socket.io.js")
+  script(src="/js/scrapers.min.js")
