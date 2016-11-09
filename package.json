@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
+    "dev": "ENV=development nodejs-dashboard -- node -r nodejs-dashboard index.js",
     "update-admin": "npm install git+https://github.com/miguel-s/geolink-admin.git",
     "update-auth": "npm install git+https://github.com/miguel-s/geolink-auth.git",
     "update-dashboards": "npm install git+https://github.com/miguel-s/geolink-dashboards.git",
@@ -38,5 +39,9 @@
     "rotating-file-stream": "^1.1.0",
     "sqlite3": "^3.1.8",
     "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "good-console": "^6.3.1",
+    "nodejs-dashboard": "^0.1.2"
   }
 }

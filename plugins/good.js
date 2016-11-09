@@ -1,19 +1,25 @@
 'use strict';
 
+const Hoek = require('hoek');
+
 const internals = {};
 
-exports.register = (server, options, next) => {
-  server.register({ register: require('good'), options: internals.options }, (err) => {
-    if (err) return next(err);
-    return next();
-  });
+internals.dev = {
+  ops: {
+    interval: 30000,
+  },
+  reporters: {
+    res: [{
+      module: 'good-squeeze',
+      name: 'Squeeze',
+      args: [{ log: '*', response: '*' }],
+    }, {
+      module: 'good-console',
+    }, 'stdout'],
+  },
 };
 
-exports.register.attributes = {
-  name: 'goodConfig',
-};
-
-exports.options = internals.options = {
+internals.prod = {
   ops: {
     interval: 30000,
   },
@@ -104,3 +110,18 @@ exports.options = internals.options = {
     }],
   },
 };
+
+internals.options = process.env.NODE_ENV === 'production' ? internals.prod : internals.dev;
+
+exports.register = (server, options, next) => {
+  server.register({ register: require('good'), options: internals.options }, (err) => {
+    Hoek.assert(!err, err);
+    return next();
+  });
+};
+
+exports.register.attributes = {
+  name: 'goodConfig',
+};
+
+exports.options = internals.options;
