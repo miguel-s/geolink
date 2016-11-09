@@ -37,7 +37,7 @@ exports.options = internals.options = {
   cacheOptions: { segment: 'sessions', expiresIn: 3 * 24 * 60 * 60 * 1000 },
   password: process.env.COOKIE_SECRET,
   cookie: 'sid',
-  redirectTo: '/login',
+  redirectTo: '/auth/login',
   appendNext: true,
   isHttpOnly: true,
   isSecure: process.env.NODE_ENV === 'production',
