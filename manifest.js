@@ -15,6 +15,7 @@ module.exports = {
     { plugin: 'inert' },
     { plugin: 'vision' },
     { plugin: './plugins/auth-cookie' },
+    { plugin: './plugins/static' },
     { plugin: './plugins/good' },
     { plugin: './plugins/database' },
 
