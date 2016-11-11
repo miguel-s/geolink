@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodejs-dashboard -- node -r nodejs-dashboard index.js"
+    "dev": "nodejs-dashboard -- node -r nodejs-dashboard index.js",
+    "build:scrapers": "cp ./modules/scrapers/assets/js/index.js ./public/js/scrapers.min.js",
+    "build": "npm run build:scrapers"
   },
   "repository": {
     "type": "git",
