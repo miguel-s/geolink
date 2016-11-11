@@ -28,7 +28,7 @@ module.exports = function handler(request, reply, source, error) {
     }
   }
 
-  request.server.app.db.get('SELECT * FROM Users WHERE email = ?', request.payload.email,
+  request.server.app.dblocal.get('SELECT * FROM Users WHERE email = ?', request.payload.email,
     (err, row) => {
       if (err) return reply(Boom.badImplementation());
 

@@ -8,7 +8,7 @@ module.exports = [
       description: 'Returns a login form',
       auth: { strategy: 'session', mode: 'try' },
       plugins: { 'hapi-auth-cookie': { redirectTo: false } },
-      handler: require('../controllers/login.js'),
+      handler: require('./controllers/login.js'),
     },
   },
   {
@@ -19,10 +19,10 @@ module.exports = [
       auth: { strategy: 'session', mode: 'try' },
       plugins: { 'hapi-auth-cookie': { redirectTo: false } },
       validate: {
-        payload: require('../models/user.js'),
-        failAction: require('../controllers/login.js'),
+        payload: require('./models/user.js').schema,
+        failAction: require('./controllers/login.js'),
       },
-      handler: require('../controllers/login.js'),
+      handler: require('./controllers/login.js'),
     },
   },
   {
@@ -30,7 +30,7 @@ module.exports = [
     path: '/logout',
     config: {
       description: 'Logout user',
-      handler: require('../controllers/logout.js'),
+      handler: require('./controllers/logout.js'),
     },
   },
   {
@@ -40,7 +40,7 @@ module.exports = [
       description: 'Returns a sinup form',
       auth: { strategy: 'session', mode: 'try' },
       plugins: { 'hapi-auth-cookie': { redirectTo: false } },
-      handler: require('../controllers/signup.js'),
+      handler: require('./controllers/signup.js'),
     },
   },
   {
@@ -51,10 +51,10 @@ module.exports = [
       auth: { strategy: 'session', mode: 'try' },
       plugins: { 'hapi-auth-cookie': { redirectTo: false } },
       validate: {
-        payload: require('../models/user.js').schema,
-        failAction: require('../controllers/signup.js'),
+        payload: require('./models/user.js').schema,
+        failAction: require('./controllers/signup.js'),
       },
-      handler: require('../controllers/signup.js'),
+      handler: require('./controllers/signup.js'),
     },
   },
 ];
