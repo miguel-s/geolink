@@ -29,7 +29,7 @@ internals.after = (server, next) => {
     path: 'views',
   });
 
-  server.route(require('./plugins/routes.js'));
+  server.route(require('./routes.js'));
 
   return next();
 };
