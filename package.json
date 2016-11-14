@@ -8,7 +8,8 @@
     "start": "node index.js",
     "dev": "nodejs-dashboard -- node -r nodejs-dashboard index.js",
     "build:scrapers": "cp ./modules/scrapers/assets/js/index.js ./public/js/scrapers.min.js",
-    "build": "npm run build:scrapers"
+    "build": "npm run build:scrapers",
+    "seed:users": "node ./scripts/seedUsers.js"
   },
   "repository": {
     "type": "git",
