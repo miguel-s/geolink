@@ -15,9 +15,11 @@ mixin sidebar(path)
           li(class=(path === "/map" ? "active" : ""))
             a(href="/map") Map
           li.nav-header Tools
-          li(class=(path === "/list" ? "active" : ""))
-            a(href="/list") List
+          li(class=(path === "/scrapers" ? "active" : ""))
+            a(href="/scrapers") Scrapers
+          li(class=(path === "/admin" ? "active" : ""))
+            a(href="/admin") Admin
           li.nav-header Misc
           li
-            a(href="/logout") Logout
+            a(href="/auth/logout") Logout
         hr.visible-xs
