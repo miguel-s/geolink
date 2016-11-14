@@ -1,0 +1,5 @@
+mixin divider(name, icon)
+  div.hr-divider.p-y
+    h4(style="font-size: 1.5em").hr-divider-content.hr-divider-heading
+      span(class=`icon-${icon}`).icon
+      = ` ${name}`

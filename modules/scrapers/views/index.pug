@@ -1,5 +1,6 @@
 extends ./layouts/base.pug
 
+include ./mixins/divider.pug
 include ./mixins/card.pug
 
 append head
@@ -8,21 +9,29 @@ append head
 append content
   div.row
     div.col-sm-12
-      +card({ name: 'twitter', icon: 'fa-twitter', data: twitter })
+      +divider('Twitter', 'twitter', false)
+      +card('twitter', 'twitter', twitter)
     div.col-sm-12
-      +card({ name: 'facebook', icon: 'fa-facebook', data: facebook })
+      +divider('Facebook', 'facebook', false)
+      +card('facebook', 'facebook', facebook)
     div.col-sm-12
-      +card({ name: 'foursquare', icon: 'fa-foursquare', data: foursquare })
+      +divider('Foursquare', 'foursquare', false)
+      +card('foursquare', 'foursquare', foursquare)
     div.col-sm-12
-      +card({ name: 'yelp', icon: 'fa-yelp', data: yelp })
+      +divider('Yelp', 'yelp', false)
+      +card('yelp', 'yelp', yelp)
     div.col-sm-12
-      +card({ name: 'tripadvisor', icon: 'fa-tripadvisor', acro: 'ta', lists: ['pages', 'list', 'venues'], data: tripadvisor })
+      +divider('Tripadvisor', 'tripadvisor', false)
+      +card('tripadvisor', 'tripadvisor', tripadvisor)
     div.col-sm-12
-      +card({ name: 'michelin', icon: 'fa-cutlery', acro: 'mi', lists: ['list', 'venues'], data: michelin })
+      +divider('Michelin', 'star', false)
+      +card('michelin', 'star', michelin)
     div.col-sm-12
-      +card({ name: 'repsol', icon: 'fa-cutlery', acro: 're', lists: ['pages', 'list', 'venues'], data: repsol })
+      +divider('Repsol', 'circle', false)
+      +card('repsol', 'circle', repsol)
     div.col-sm-12
-      +card({ name: 'minube', icon: 'fa-cloud', acro: 'mn', lists: ['pages', 'list', 'pois'], data: minube })
+      +divider('Minube', 'cloud', false)
+      +card('minube', 'cloud', minube)
 
 append scripts
   script(src="/socket.io/socket.io.js")

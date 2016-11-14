@@ -1,8 +1,8 @@
 'use strict';
 
-const database = require('mssql');
 const fs = require('fs');
 const path = require('path');
+const database = require('mssql');
 const _ = require('lodash');
 const fetch = require('node-fetch');
 
