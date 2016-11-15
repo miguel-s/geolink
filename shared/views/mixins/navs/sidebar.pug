@@ -1,4 +1,9 @@
-mixin sidebar(path)
+mixin item(title, path, scope, location)
+  if !scope || user.scope.indexOf(scope) !== -1
+    li(class=(location === title.toLowerCase() ? 'active' : ''))
+      a(href=path)= title
+
+mixin sidebar(location, scope)
   div.sidebar
     nav.sidebar-nav
       div.sidebar-header
@@ -10,16 +15,11 @@ mixin sidebar(path)
       div#nav-toggleable-sm.collapse.nav-toggleable-sm
         ul.nav.nav-pills.nav-stacked
           li.nav-header Dashboards
-          li(class=(path === "overview" ? "active" : ""))
-            a(href="/dashboards") Overview
-          li(class=(path === "map" ? "active" : ""))
-            a(href="/dashboards/map") Map
+          +item('Overview', '/dashboards', false, location)
+          +item('Map', '/dashboards/map', false, location)
           li.nav-header Tools
-          li(class=(path === "scrapers" ? "active" : ""))
-            a(href="/scrapers") Scrapers
-          li(class=(path === "admin" ? "active" : ""))
-            a(href="/admin") Admin
+          +item('Scrapers', '/scrapers', false, location)
+          +item('Admin', '/admin', 'admin', location)
           li.nav-header Misc
-          li
-            a(href="/auth/logout") Logout
+          +item('Logout', '/auth/logout', false, location)
         hr.visible-xs
