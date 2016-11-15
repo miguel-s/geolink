@@ -27,6 +27,9 @@ internals.after = (server, next) => {
     },
     relativeTo: __dirname,
     path: 'views',
+    context: request => ({
+      user: request.auth.credentials,
+    }),
   });
 
   server.route(require('./routes.js'));
