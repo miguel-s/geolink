@@ -11,9 +11,9 @@ mixin sidebar(path)
         ul.nav.nav-pills.nav-stacked
           li.nav-header Dashboards
           li(class=(path === "overview" ? "active" : ""))
-            a(href="/") Overview
+            a(href="/dashboards") Overview
           li(class=(path === "map" ? "active" : ""))
-            a(href="/map") Map
+            a(href="/dashboards/map") Map
           li.nav-header Tools
           li(class=(path === "scrapers" ? "active" : ""))
             a(href="/scrapers") Scrapers
