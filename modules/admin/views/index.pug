@@ -7,7 +7,7 @@ append body
   div.container
     div.row
       div.col-sm-3
-        +sidebar('admin')
+        +sidebar('admin', user.scope)
       div.col-sm-9
         +dashhead('Admin', 'Tools', true)
         div.row
