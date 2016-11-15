@@ -7,11 +7,7 @@ module.exports = [
     config: {
       description: 'Returns the index page',
       auth: { strategy: 'session', mode: 'try' },
-      handler: {
-        view: {
-          template: 'index',
-        },
-      },
+      handler: require('./controllers/index.js'),
     },
   },
   {
@@ -20,11 +16,7 @@ module.exports = [
     config: {
       description: 'Returns the map page',
       auth: { strategy: 'session', mode: 'try' },
-      handler: {
-        view: {
-          template: 'map',
-        },
-      },
+      handler: require('./controllers/map.js'),
     },
   },
 ];
