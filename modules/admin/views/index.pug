@@ -1,14 +1,17 @@
-extends ../../../shared/views/layouts/base.pug
+extends ./layouts/base.pug
 
 append head
-  title Admin
-  style.
-    body {
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }
+  title Overview
 
 append body
-  h1 Hello, world!
+  div.container
+    div.row
+      div.col-sm-3
+        +sidebar('admin')
+      div.col-sm-9
+        +dashhead('Admin', 'Tools', true)
+        div.row
+          div.col-sm-12
+            p Under construction!
 
 append scripts
