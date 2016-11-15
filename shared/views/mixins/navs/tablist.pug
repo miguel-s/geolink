@@ -1,7 +1,0 @@
-mixin tablist(tabs, active)
-  div.tablist
-    ul(role="tablist").nav.nav-bordered.m-t.m-b-0
-      each tab in tabs
-        li(role="presentation" class=(tab === tabs[active] ? "active" : ""))
-          a(href=`#${tab.toLowerCase()}` role="tab" data-toggle="tab" aria-controls="traffic")= tab
-    hr.m-t-0.m-b-lg
