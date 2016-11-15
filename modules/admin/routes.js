@@ -7,11 +7,7 @@ module.exports = [
     config: {
       description: 'Returns the index page',
       auth: { strategy: 'session', mode: 'try', scope: 'admin' },
-      handler: {
-        view: {
-          template: 'index',
-        },
-      },
+      handler: require('./controllers/index.js'),
     },
   },
 ];
