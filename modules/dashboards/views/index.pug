@@ -1,6 +1,17 @@
-doctype html
-html
-  head
-    title Admin
-  body
-    h1 Hello, world!
+extends ./layouts/base.pug
+
+append head
+  title Overview
+
+append body
+  div.container
+    div.row
+      div.col-sm-3
+        +sidebar('overview')
+      div.col-sm-9
+        +dashhead('Overview', 'Dashboards', true)
+        div.row
+          div.col-sm-12
+            p Under construction!
+
+append scripts

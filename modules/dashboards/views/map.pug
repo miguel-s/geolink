@@ -1,0 +1,20 @@
+extends ./layouts/base.pug
+
+append head
+  title Overview
+
+append body
+  div.container
+    div.row
+      div.col-sm-3
+        +sidebar('map')
+      div.col-sm-9
+        +dashhead('Map', 'Dashboards', true)
+        div.row
+          div.col-sm-12
+            div#map
+
+append scripts
+  script(src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js")
+  script(src="/libs/leaflet.markercluster/js/leaflet.markercluster.min.js")
+  script(src="/js/map.min.js")
