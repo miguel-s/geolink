@@ -7,6 +7,13 @@ exports.init = (manifest, options, next) => {
   Glue.compose(manifest, options, (err, server) => {
     Hoek.assert(!err, err);
 
+    server.ext('onPreResponse', (request, reply) => {
+      if (!request.response.isBoom) {
+        return reply.continue();
+      }
+      return reply.view('error', request.response).code(request.response.output.statusCode);
+    });
+
     server.views({
       engines: {
         pug: {
